@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dados dos itens (naves, planetas, mineradoras)
     const items = {
         ships: [
-            { name: 'Swift Star', image: 'IMG/nave1.png', earnings: 10, cost: 200, days: 30, quantity: 0 },
-            { name: 'Galactic Falcon', image: 'IMG/nave2.png', earnings: 15, cost: 300, days: 30, quantity: 0 },
-            { name: 'Destiny Cruiser', image: 'IMG/nave3.png', earnings: 20, cost: 400, days: 30, quantity: 0 },
-            { name: 'Sonic Comet', image: 'IMG/nave4.png', earnings: 25, cost: 500, days: 30, quantity: 0 },
-            { name: 'Stellar Vortex', image: 'IMG/nave5.png', earnings: 30, cost: 600, days: 30, quantity: 0 }
+            { name: 'Swift Star', image: 'nave1.png', earnings: 10, cost: 200, days: 30, quantity: 0 },
+            { name: 'Galactic Falcon', image: 'nave2.png', earnings: 15, cost: 300, days: 30, quantity: 0 },
+            { name: 'Destiny Cruiser', image: 'nave3.png', earnings: 20, cost: 400, days: 30, quantity: 0 },
+            { name: 'Sonic Comet', image: 'nave4.png', earnings: 25, cost: 500, days: 30, quantity: 0 },
+            { name: 'Stellar Vortex', image: 'nave5.png', earnings: 30, cost: 600, days: 30, quantity: 0 }
         ],
         planets: [
             { name: 'Planeta 1', image: 'IMG/planet1.png', earnings: 50, cost: 800, days: 60, quantity: 0 },
